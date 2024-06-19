@@ -108,7 +108,7 @@ void setnonblockingmode(int fd)
 }
 void error_handling(char *message)
 {
-	fputs(message, stderr);
-	fputc('\n', stderr);
-	exit(1);
+   fputs(message, stderr);
+   fputc('\n', stderr);
+   exit(1);
 }
